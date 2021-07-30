@@ -1,0 +1,9 @@
+Function fncStringReplace(ByVal sString As String, ByVal sChar As String, ParamArray aTokens()) As String
+    Dim i As Long
+    
+    For i = LBound(aTokens) To UBound(aTokens)
+        sString = Replace(sString, sChar + CStr(i + 1) + sChar, aTokens(i))
+    Next
+    fncStringReplace = sString
+ 
+End Function
