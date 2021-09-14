@@ -4,3 +4,4 @@ Usefull VBA code:
 * subrutine for multi replace
 * subrutine for typical excel cells formating
 * excel file for import components to .xlsm file vba project
+*
